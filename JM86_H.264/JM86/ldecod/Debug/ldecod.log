@@ -1,0 +1,58 @@
+﻿生成启动时间为 2013/5/17 10:00:31。
+     1>项目“D:\progress\JM86_firstime\ldecod.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\ldecod/Debug\ldecod.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\progress\JM86_firstime\.\ldecod/Debug\ldecod.exe) 与 Linker 的 OutputFile 属性值(D:\progress\JM86_firstime\bin\ldecod.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./bin/ldecod.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\ldecod/Debug\ldecod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\progress\JM86_firstime\ldecod\Debug\ldecod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\ldecod/Debug\ldecod.lib" /MACHINE:X86 .\ldecod/Debug\ldecod.exe.embed.manifest.res
+         .\ldecod/Debug\annexb.obj
+         .\ldecod/Debug\biaridecod.obj
+         .\ldecod/Debug\block.obj
+         .\ldecod/Debug\cabac.obj
+         .\ldecod/Debug\context_ini.obj
+         .\ldecod/Debug\erc_api.obj
+         .\ldecod/Debug\erc_do_i.obj
+         .\ldecod/Debug\erc_do_p.obj
+         .\ldecod/Debug\errorconcealment.obj
+         .\ldecod/Debug\filehandle.obj
+         .\ldecod/Debug\fmo.obj
+         .\ldecod/Debug\header.obj
+         .\ldecod/Debug\image.obj
+         .\ldecod/Debug\ldecod.obj
+         .\ldecod/Debug\leaky_bucket.obj
+         .\ldecod/Debug\loopFilter.obj
+         .\ldecod/Debug\macroblock.obj
+         .\ldecod/Debug\mb_access.obj
+         .\ldecod/Debug\mbuffer.obj
+         .\ldecod/Debug\memalloc.obj
+         .\ldecod/Debug\nal.obj
+         .\ldecod/Debug\nal_part.obj
+         .\ldecod/Debug\nalu.obj
+         .\ldecod/Debug\nalucommon.obj
+         .\ldecod/Debug\output.obj
+         .\ldecod/Debug\parset.obj
+         .\ldecod/Debug\parsetcommon.obj
+         .\ldecod/Debug\rtp.obj
+         .\ldecod/Debug\sei.obj
+         .\ldecod/Debug\vlc.obj
+         LINK : 缺少程序数据库 D:\progress\JM86_firstime\ldecod\Debug\ldecod.pdb；正在执行完全链接
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\ldecod/Debug\ldecod.exe.embed.manifest" /manifest .\ldecod/Debug\ldecod.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ldecod.vcxproj -> D:\progress\JM86_firstime\.\ldecod/Debug\ldecod.exe
+       BscMake:
+         所有输出均为最新。
+       FinalizeBuildStatus:
+         正在删除文件“.\ldecod/Debug\ldecod.unsuccessfulbuild”。
+         正在对“.\ldecod/Debug\ldecod.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\progress\JM86_firstime\ldecod.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.53

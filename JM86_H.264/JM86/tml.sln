@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ldecod", "ldecod.vcxproj", "{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lencod", "lencod.vcxproj", "{D2A154ED-5F2A-678C-8F61-65D7317B5B68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtpdump", "rtpdump\rtpdump.vcxproj", "{0B3E76C2-4C6C-C63F-E582-1279342E1309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Debug|Win32.Build.0 = Debug|Win32
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Release|Win32.ActiveCfg = Release|Win32
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Release|Win32.Build.0 = Release|Win32
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Template|Win32.ActiveCfg = Release|Win32
+		{0BEB8CD6-A338-3C3A-5650-4D171C7FBFFA}.Template|Win32.Build.0 = Release|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Debug|Win32.Build.0 = Debug|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Release|Win32.ActiveCfg = Release|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Release|Win32.Build.0 = Release|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Template|Win32.ActiveCfg = Template|Win32
+		{D2A154ED-5F2A-678C-8F61-65D7317B5B68}.Template|Win32.Build.0 = Template|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Debug|Win32.Build.0 = Debug|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Release|Win32.ActiveCfg = Release|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Release|Win32.Build.0 = Release|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Template|Win32.ActiveCfg = Template|Win32
+		{0B3E76C2-4C6C-C63F-E582-1279342E1309}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
